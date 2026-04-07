@@ -1,0 +1,11 @@
+deepagents
+langsmith
+tavily-python
+python-dotenv
+pandas
+scipy
+matplotlib
+seaborn
+statsmodels
+requests
+openpyxl

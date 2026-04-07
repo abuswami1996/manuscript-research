@@ -1,0 +1,32 @@
+# Secrets and local env
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Tooling / caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local logs
+run.log
+utils/run.log
+
+# OS
+.DS_Store
+
+# Workspace: keep workspace/ and workspace/runs/ in the repo; ignore all run outputs
+workspace/runs/*
+!workspace/runs/.gitkeep
