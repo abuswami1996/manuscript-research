@@ -9,3 +9,5 @@ seaborn
 statsmodels
 requests
 openpyxl
+pyalex
+biopython

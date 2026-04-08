@@ -31,11 +31,18 @@ def project_name() -> str:
     )
 
 
-def build_run_config() -> dict[str, Any]:
+def build_run_config(
+    agent_id: str,
+    *,
+    extra_tags: list[str] | None = None,
+) -> dict[str, Any]:
     """RunnableConfig fragment merged into invoke/stream for LangSmith."""
+    tags = ["deepagents", agent_id]
+    if extra_tags:
+        tags = [*tags, *extra_tags]
     return {
-        "tags": ["medical-manuscript", "deepagents"],
-        "metadata": {"app": "autonomous-research-manuscript"},
+        "tags": tags,
+        "metadata": {"app": "autonomous-research", "agent_id": agent_id},
     }
 
 
