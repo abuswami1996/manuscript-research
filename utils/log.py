@@ -5,7 +5,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-LOG_FILE = Path(__file__).parent / "run.log"
+# Default log path when init_logger is called without log_file (legacy).
+LOG_FILE = Path(__file__).resolve().parent.parent / "logs" / "run.log"
 
 
 class _Formatter(logging.Formatter):
@@ -26,9 +27,13 @@ class _Formatter(logging.Formatter):
         return f"{color}[{ts}] [{tag}]{self.RESET} {msg}"
 
 
-def init_logger() -> logging.Logger:
-    """Configure and return the 'manuscript' logger."""
-    log = logging.getLogger("manuscript")
+def init_logger(
+    name: str = "autonomous_research",
+    *,
+    log_file: Path | None = None,
+) -> logging.Logger:
+    """Configure and return a logger. Each ``name`` is configured at most once."""
+    log = logging.getLogger(name)
     if log.handlers:
         return log
     log.setLevel(logging.DEBUG)
@@ -38,7 +43,9 @@ def init_logger() -> logging.Logger:
     console.setFormatter(_Formatter())
     log.addHandler(console)
 
-    fh = logging.FileHandler(LOG_FILE, mode="w", encoding="utf-8")
+    path = log_file if log_file is not None else LOG_FILE
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fh = logging.FileHandler(path, mode="w", encoding="utf-8")
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(logging.Formatter("[%(asctime)s] [%(levelname)s] %(message)s"))
     log.addHandler(fh)
@@ -49,6 +56,7 @@ def init_logger() -> logging.Logger:
 # ---------------------------------------------------------------------------
 # Stream event helpers
 # ---------------------------------------------------------------------------
+
 
 def extract_messages(node_data):
     """Safely extract a list of messages from a LangGraph stream node update."""
@@ -62,10 +70,8 @@ def extract_messages(node_data):
     return raw
 
 
-def log_stream_event(node_name: str, msg):
+def log_stream_event(log: logging.Logger, node_name: str, msg):
     """Log a single message from the stream with full detail."""
-    log = logging.getLogger("manuscript")
-
     if not hasattr(msg, "content") and not hasattr(msg, "tool_calls"):
         return
 

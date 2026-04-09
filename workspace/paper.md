@@ -1,987 +1,382 @@
-General Articles
+# BMC Medical Research Methodology
+![BioMed Central](page_1_image_1_v2.jpg)
 
-# A Bibliometric Analysis of Global Clinical Research by Anesthesia Departments
+Research article
+![Open Access](page_1_image_2_v2.jpg)
 
-Madhav Swaminathan, MD, FASE, FAHA
+# Cluster randomised trials in the medical literature: two bibliometric surveys
+J Martin Bland*
 
-Barbara G. Phillips-Bute, PhD
+Address: Department of Health Sciences, University of York, York YO10 5DD, United Kingdom
+Email: J Martin Bland* - mb55@york.ac.uk
+* Corresponding author
 
-Katherine P. Grichnik, MD, FASE
+Published: 13 August 2004
+Received: 12 May 2004
+BMC Medical Research Methodology 2004, 4:21 doi:10.1186/1471-2288-4-21
+Accepted: 13 August 2004
+This article is available from: http://www.biomedcentral.com/1471-2288/4/21
 
-**BACKGROUND:** Few studies have investigated the diversity in research conducted by anesthesia-based researchers. We examined global clinical research attributed to anesthesia departments using Medline® and Ovid® databases. We also investigated the impact of economic development on national academic productivity.
+© 2004 Bland; licensee BioMed Central Ltd.
+This is an open-access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
-**METHODS:** We conducted a Medline search for English-language publications from 2000 to 2005. The search included only clinical research in which institutional affiliation included words relating to anesthesia (e.g., anesthesiology, anesthesia, etc.). Population and gross national income data were obtained from publicly available databases. Impact factors for journals were obtained from Journal Citation Reports (Thomson Scientific).
+## Abstract
+**Background:** Several reviews of published cluster randomised trials have reported that about half did not take clustering into account in the analysis, which was thus incorrect and potentially misleading. In this paper I ask whether cluster randomised trials are increasing in both number and quality of reporting.
 
-**RESULTS:** There were 6736 publications from 64 countries in 551 journals. About 85% of all publications were represented by 46 journals. Randomized controlled trials constituted 4685 (70%) of publications. Turkey had the highest percentage of randomized controlled trials (88%). The United States led the field in quantity (20% of total) and mean impact factor (3.0) of publications. Finland had the highest productivity when adjusted for population (36 publications per million population). Publications from the United States declined from 23% in 2000 to 17% in 2005.
-**CONCLUSIONS:** Clinical research attributable to investigators in our specialty is diverse, and extends beyond the traditional field of anesthesia and intensive care. The United States produces the most clinical research, but per capita output is higher in European nations.
+**Methods:** Computer search for papers on cluster randomised trials since 1980, hand search of trial reports published in selected volumes of the *British Medical Journal* over 20 years.
 
-(Anesth Analg 2007;105:1741–6)
+**Results:** There has been a large increase in the numbers of methodological papers and of trial reports using the term 'cluster random' in recent years, with about equal numbers of each type of paper. The *British Medical Journal* contained more such reports than any other journal. In this journal there was a corresponding increase over time in the number of trials where subjects were randomised in clusters. In 2003 all reports showed awareness of the need to allow for clustering in the analysis. In 1993 and before clustering was ignored in most such trials.
 
-Medical progress is dependent on scientific communication of research findings. There has been a significant increase in the volume of scientific publications in recent years. Several studies have documented patterns of publications in clinical and basic science research in anesthesia journals (1–4). Some investigators have also determined the contribution of specific countries and regions to the anesthesia literature (1). Most reports have focused on bibliometric analyses of publications within the subject category of anesthesia or anesthesia-related research. However, the clinical practice of anesthesia encompasses several
+**Conclusion:** Cluster trials are becoming more frequent and reporting is of higher quality. Perhaps statistician pressure works.
 
-disciplines, and anesthesiologists publish in journals serving a diverse scientific audience. For instance, research attributed to anesthesia departments is published on such diverse subjects as clinical toxicology and aviation space medicine. This diversity in clinical research among anesthesia departments has not been quantified or reported. A significant limitation to studying this diversity has been the lack of consistent information on institutional or departmental affiliation of the corresponding author among journals.
+## Background
+Cluster randomised trials are those where research subjects are not allocated to treatments independently, but as a group. For example, in a study of counselling patients on physical activity in general practice, practices were allocated to counselling or control and patients aged 40–79 years who attended during a five day period and who did not take regular exercise were invited to take part. Patients in the same practice received the same treatment, counselling or usual care, depending on how the practice was allocated. [1] The group of patients within the general practice formed a cluster.
 
-From 1988 onwards, Medline® database elements included primary author affiliation. However, this information was more consistent after 1996 when electronic submissions were introduced and the author’s email address was also included when available (5). This field has detailed information on the author’s complete address, including department information when available. Using Medline and other publicly available databases, we examined global clinical research productivity by anesthesiologists, and tabulated trends by country.
+Members of a cluster will be more like one another than they are like members of other clusters and we need to take this into account in the analysis, and preferably the design, of the study. Methods which ignore clustering may mislead, because they assume that all subjects provide independent observations. Applying simple statistical methods to such data, without taking the clustering into account, can lead to confidence intervals which are too narrow and P values which are too small.
 
-From the Division of Cardiothoracic Anesthesiology and Critical Care Medicine, Department of Anesthesiology, Duke University Medical Center, Durham, North Carolina.
+There has been an increasing interest in cluster randomised trials over the past 20 years. For example, by the end of 2003 the *British Medical Journal* Statistics Notes on this topic [2-7] had been cited 121 times.
 
-Accepted for Publication August 3, 2007.
+Page 1 of 6
+(page number not for citation purposes)
 
-Supported by intramural funds from the Division of Cardiothoracic Anesthesiology and Critical Care Medicine, Department of Anesthesiology, Duke University Medical Center, Durham, North Carolina.
+BMC Medical Research Methodology 2004, **4**:21
+http://www.biomedcentral.com/1471-2288/4/21
 
-Conflicts of Interest: None.
+Table 1: Some reviews of published cluster randomised trials
 
-Presented in part at the Annual Meeting of the American Society of Anesthesiologists, San Francisco, CA, October 2007.
-
-Reprints will not be available from the author.
-
-Address correspondence to Madhav Swaminathan, MD, FASE, FAHA, Duke University Medical Center, Department of Anesthesiology, Box 3094, Durham, NC 27710. Address e-mail to swami001@mc.duke.edu.
-
-Copyright © 2007 International Anesthesia Research Society
-DOI: 10.1213/01.ane.0000286149.57763.e7
-
-## METHODS
-
-With IRB approval, we gathered bibliometric data from 2000 to 2005 using Medline. The search was conducted using the Ovid Gateway for Medline (Thomson Scientific, Philadelphia, PA). A hierarchy of search terms was used (Table 1) using a combination
-
-Vol. 105, No. 6, December 2007 © 2007 International Anesthesia Research Society. Unauthorized Use Prohibited.
-1741
-
-**Table 1.** Search Criteria
 
 <table>
+  <thead>
+    <tr>
+        <th>Authors</th>
+        <th>Source of trials</th>
+        <th>Years</th>
+        <th>Clustering allowed for in sample size</th>
+        <th>Clustering allowed for in analysis</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-        <td>1</td>
-        <td>(anesthesia or anesthesiologists or anesthesiology or<br/>anesthesic or anesthesie or anesthesiolgy or<br/>anesthesiologia or anesthesiologic or<br/>anesthesiological or anesthesiologie or<br/>anesthesiologist). IN</td>
+        <td>Donner et al. [8]</td>
+        <td>16 non-therapeutic intervention trials</td>
+        <td>1979 – 1989</td>
+        <td>&lt;20%</td>
+        <td>&lt;50%</td>
     </tr>
     <tr>
-        <td>2</td>
-        <td>(anaesthesia or anaesthetic or anaesthesie or<br/>anaesthetics or anaesthetist or anaesthetists or<br/>anaesthesiologie or anaesthesiology). IN</td>
+        <td>Simpson et al. [9]</td>
+        <td>21 trials from American Journal of Public Health and Preventive Medicine</td>
+        <td>1990 – 1993</td>
+        <td>19%</td>
+        <td>57%</td>
     </tr>
     <tr>
-        <td>3</td>
-        <td>1 or 2</td>
+        <td>Isaakidis and Ioannidis [11]</td>
+        <td>51 trials in Sub-Saharan Africa</td>
+        <td>1973 – 2001 (half post 1995)</td>
+        <td>20%</td>
+        <td>37%</td>
     </tr>
     <tr>
-        <td>4</td>
-        <td>limit 3 to “humans”</td>
+        <td>Puffer et al. [10]</td>
+        <td>36 trials in British Medical Journal, Lancet, and New England Journal of Medicine</td>
+        <td>1997 – 2002</td>
+        <td>56%</td>
+        <td>92% <sup>a</sup></td>
     </tr>
     <tr>
-        <td>5</td>
-        <td>limit 4 to “English language”</td>
+        <td>Eldridge et al. [12]</td>
+        <td>152 trials in primary health care</td>
+        <td>1997 – 2000</td>
+        <td>9%</td>
+        <td>59%</td>
     </tr>
     <tr>
-        <td>6</td>
-        <td>(clinical trial or clinical trial phase i or clinical trial<br/>phase ii or clinical trial phase iii or clinical trial<br/>phase iv or meta analysis or controlled clinical trial<br/>or randomized controlled trial or evaluation studies<br/>or validation studies). PT</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>5 and 6</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>limit 7 to yr = “2000”</td>
+        <td>Varnell et al. [13]</td>
+        <td>60 trials in American Journal of Public Health and Preventive Medicine</td>
+        <td>1998 – 2002</td>
+        <td>20%</td>
+        <td>54% (all analyses) + 25% (some analyses only)</td>
     </tr>
   </tbody>
 </table>
 
-Search conducted using Ovid Web Gateway (Ovid Technologies, Thomson Scientiﬁc, Philadelphia, PA).
+<sup>a</sup> My review of trials identified by Puffer et al. [10]
 
-IN = institution; PT = publication type.
+There have been several reviews of published cluster randomised trials [8-13] (Table 1). All but Puffer et al. [10] reported that very few trials had sample size calculations which included clustering and about half took clustering into account in the analysis, fewer in the African studies reported by Isaakidis and Ioannidis. [11] Puffer et al. [10] did not mention whether trials failed to take clustering into account in the analysis. My own review of their trials as listed on the *British Medical Journal* website found that only 3 out of 36 ignored clustering. The review of the *American Journal of Public Health and Preventive Medicine* in 1998 – 2002 [13] is especially interesting because it attempted to replicate an earlier study [9] in the same journals. There was an increase in the number of reports of cluster randomised trials: 12.3 studies were reported per year in 1998 – 2002 compared to 5.3 studies per year in 1990 – 1993. [9] The quality of the analysis may have improved, but such assessments are subjective and very difficult to compare between reviews.
 
-of Boolean operators (AND, OR, NOT) to extract English language human clinical research attributable to institutional affiliation that included any of the most common anesthesia-related words. Clinical research was defined as a publication that was indexed by Medline under the “publication type” field under one or more specific headings indicated in Table 1. A comprehensive description of publication characteristics in the “publication type” field is available on the Medline website (http://www.nlm.nih.gov/mesh/pubtypes2006.html [accessed on May 10, 2007]). The search was repeated for each year from 2000 to 2005. These specific years were chosen since information on author address and institutional affiliation was likely to be accurate from 2000 onwards, whereas impact factor data were available for journals only until 2005 at the time of writing. Citations matching the search criteria were imported into the EndNote® bibliographic management software (Thomson Scientific). Review articles, case reports, letters to the editor, errata, and duplicate publications were excluded from the database.
+It is understandable that papers do not report sample size calculations, as often these are omitted from papers entirely, sometimes by the request of the journal to save space. It can be argued (though I would not do so) that once we have carried out a study, the sample size calculations are not particularly informative. Analysis which ignores the clustering, however, can be highly misleading, finding significant differences where there are none. We may have incorrect conclusions in the literature, which are then uncritically repeated and become false knowledge.
 
-Quality of publications was defined by two criteria 1) type of publication (Table 1), and 2) impact factor of journal. Among the different publication types, a hierarchy was established in the following descending order of importance: randomized controlled trials, controlled clinical trials, clinical trials, evaluation and/or validation studies, and finally, meta-analyses. Journal impact factors were gathered for all journals represented in the database for the latest year (2005) from Journal Citation Reports® (ISI Web of Knowledge, Thomson Scientific). Country labels were individually collected from the “author address” field in EndNote for each publication. Publications from Northern Ireland, England, Scotland, and Wales were grouped as United Kingdom. Publications from Hong Kong were not grouped with China because there were different quantitative variables for the two regions.
+We should not be surprised that clustering is ignored. In the past, few textbooks have cautioned against this and the assumption of independence of observations is seldom stressed. Many statisticians will admit to having incorrectly ignored clustering in the analysis of clustered designs, including myself when I was younger and more ignorant than today. However, it can be very important.
 
-Country-specific data were then gathered from two sources: (a) population information was obtained from the United Nations Populations Division for the most recent reported period for each country (6), and (b) statistics on income category for each country were acquired from the World Bank List of Economies for 2005 (7). Briefly, 208 countries are classified by the World Bank according to 2005 Gross National Income per capita as low income ($875 or less), lower middle income ($876–$3465), upper middle income ($3466–$10,725), and high income (>$10,726). A complete description of this methodology and countries included is available on the World Bank website (7). Both sources are publicly available through online searchable databases. Separate databases were developed for publications, country-specific data and journal-specific data. The data were then analyzed using SAS statistical software (version 9.1.3, SAS, Cary, NC) with cross tabulations between individual databases.
+In this paper I attempt to chart the changes in both the number of cluster randomised trials reported and the proportion of these reports where clustering has been taken into account in the analysis.
 
-Descriptive statistics were used to examine the quality of publications from each country (country-wise impact factor and type of publication), national productivity per capita of population, and impact of economic category on productivity. In addition, journals represented in this database were quantified in terms of number of publications for each journal.
+## Methods
 
-# RESULTS
+I first carried out a search on the ISI Web of Science, looking for papers on cluster randomisation and reports of trials. I classified these by type (trial report or methodological article), year of publication, and journal.
 
-There were 6736 publications that met inclusion criteria from 2000 to 2005. The number was fairly consistent over the timeline (Fig. 1) with a mean of 1123 ± 68 publications per year. These publications were represented by authors from 64 countries and appeared in 551 journals. Approximately 85% of the publications were represented by 46 of the 551 journals (Table 2). Two hundred fifty-eight journals had only one publication each, whereas 90 journals had two publications, and 47 had three publications.
+To identify cluster randomised trials we have to read the papers. We cannot tell whether a trial is cluster randomised from title, keywords, or abstract. Many authors are not aware of the importance of clustering and do not mention it. In this paper I report the results of a hand search of the *British Medical Journal*. I identified and scanned all papers reporting trials for the years 1983, 1988, 1993, 1998, and 2003, recording any where subjects were allocated in clusters. I excluded any studies where subjects were not allocated to groups by the investigator, for example several comparisons of fund-holding and non-fund-holding general practices.
 
-Among the 64 countries represented in the database, 34 had 20 or more publications (Table 3). These countries accounted for 6582 of the total 6736 publications (98%). The United States led with 1295 publications (20%). Western Europe contributed 3033 publications (45%), whereas Asia contributed 1367 publications (20%).
+For each trial identified, I noted whether clustering had been taken into account in the analysis. There are several approaches which can be used to allow for clustering. The easiest is to calculate a summary statistic for each cluster. [4] This is usually a mean for a continuous outcome or a proportion for a dichotomous outcome. We can also use robust variance estimates, general estimating equation
 
-## Qualitative Variables
+Page 2 of 6
+(page number not for citation purposes)
 
-### By Publication Type
+BMC Medical Research Methodology 2004, **4**:21 http://www.biomedcentral.com/1471-2288/4/21
 
-Randomized controlled trials constituted a majority of the publications (4685 of 6736; 70%). Clinical trials and controlled clinical trials were next at 22%, followed by evaluation or validation studies (7%) and meta-analyses (2%). The country with the highest proportion of randomized controlled trails was Turkey (88%).
+models (GEEs), multilevel modelling, Bayesian hierarchical models, and several other techniques. Any method which takes into account the clustering should be an improvement compared to methods which do not.
 
-### By Impact Factor
+I also noted whether ignoring the possible effects of clustering might have an important effect on the conclusions. Clustering may result in P values and confidence intervals which are sufficiently biased to have a major effect if any of the following are true: the cluster size is large, the number of clusters is small, or the intra-cluster correlation coefficient is large. Whether any of these applies in a trial which ignores clustering is a matter of judgement.
 
-Impact factor information was available for 415 of the 551 journals that represented 92% of the total number of publications. The mean impact factor for all
+## Results
 
-1742
-Global Research by Anesthesiologists
-ANESTHESIA & ANALGESIA
-© International Anesthesia Research Society. Unauthorized Use Prohibited.
+### A computer search for cluster randomised trials
 
-# Global Research Output Including US Contribution
+Figure 1 shows the result of a search on the ISI Web of Science, looking for papers on cluster randomisation and reports of trials. I found that other terms, such as 'group randomised' did not work, as I got hundreds of abstracts with 'patients were in two groups, randomised to active or control treatments'.
+
+There are many potential biases. In the first part of the period, the Web of Science database did not include abstracts, so there was less opportunity to pick up the search terms. More recently, several journals began to include a description of the trial design in the title of the paper, for example 'Effect on hip fractures of increased use of hip protectors in nursing homes: cluster randomised controlled trial'. [14] This will increase the detection rate. These design descriptions are not always correct, nor does the cluster randomised nature of the trial necessarily appear in the description. Also, many authors will not be aware of the importance of clustering and will not mention it. These factors will reduce detection. Hence this is not a thorough search and will have missed many studies, but it might give an idea of the increase in activity.
+
+I divided the papers into those which were methodological, either educating researchers into the appropriate design and analysis of cluster randomised trials or developing new methods of analysing such trials, and those reporting actual trials. The data for 2000 and 2001 includes special issues of *Statistics in Medicine* and *Statistical Methods in Medical Research* on cluster randomisation, so there were a larger number of methodological papers than might be expected in those years. The numbers of papers found in the two categories were similar in each year before 2001: as many papers were about how to do such trials as were reports of actual trials. It is hard to believe that there are so few such trials being reported and it is likely that many have been reported without any acknowledgement of the importance of clustering.
+
+All the papers up to 1990 are due to Donner and his colleagues. [8,15,16] However, it was impossible to identify papers which used older terminology. A paper by Cornfield [17] 'Randomisation by group: a formal analysis' includes the following statement 'Randomization by cluster accompanied by an analysis appropriate to randomization by individual is an exercise in self-deception, however, and should be discouraged.' This would not be found by the search. The book on cluster randomization by Murray [18] is called *The Design and Analysis of Group-Randomized Trials*.
+
+The British Medical Journal was the journal most frequently represented in the survey, no fewer than 43 of the 332 publications found, 13%, appearing there. The next was *Statistics in Medicine* with 39 publications (12%), all methodological, then the *British Journal of General Practice* with 17 (5%), *Controlled Clinical Trials* with 16 (5%), and *Family Practice* with 10 (3%). Figure 1 shows that papers in the *British Medical Journal* reflect the literature as a whole. The first paper in the *BMJ* was a report of a trial, [19] which was followed four years later by a series of short educational articles. [3,4,6,7]
+
+When I first did the search reported in Figure 1, I was surprised by how few trials were reported. My subjective impression was that there were many more cluster randomised trials than I had found. I therefore decided to carry out a small survey of journals to find out whether the dramatic increase shown in Figure 1 was real. As the *British Medical Journal* had most reports and had been published for many years, this was the obvious journal with which to begin.
+
+### A survey of papers in the British Medical Journal
+
+The results of the search are shown in Table 2. As Table 2 shows only reports of trials, it does not include all the *BMJ* papers in Figure 1, which also includes methodological papers. A list of all papers reviewed is given in the additional file: papers in the survey. Only one of the trials in survey [1] cited any of the *BMJ* Statistics Notes on clustering. [2-7]
+
+The noted query relates to a paper in which the authors stated that 'Univariate comparisons were calculated by t test and $\chi^2$ analysis. The role of potential covariates was explored using linear regression specified as a two level model (practice and individual) using the software package MLn'. [20] I could find no multilevel modelling in this paper, but a lot of t and $\chi^2$ tests. This was a trial of community based management in failure to thrive by babies. Thirty eight primary care teams were randomly allocated to intervention or control and all children identified in the practice were offered the same intervention, so clearly clustering should be taken into account.
+
+Page 3 of 6
+(page number not for citation purposes)
+
+BMC Medical Research Methodology 2004, **4**:21 http://www.biomedcentral.com/1471-2288/4/21
 
 <table>
   <thead>
     <tr>
         <th>Year</th>
-        <th>US Publications</th>
-        <th>Global Publications</th>
-        <th>US Share % of Total</th>
+        <th>All papers</th>
+        <th>BMJ papers</th>
+        <th>Methods</th>
+        <th>Trials</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+        <td>1981</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1985</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1990</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1995</td>
+        <td>10</td>
+        <td>2</td>
+        <td>7</td>
+        <td>3</td>
+    </tr>
+    <tr>
         <td>2000</td>
-        <td>250</td>
-        <td>1080</td>
-        <td>23</td>
-    </tr>
-    <tr>
-        <td>2001</td>
-        <td>220</td>
-        <td>1100</td>
+        <td>40</td>
+        <td>8</td>
         <td>20</td>
-    </tr>
-    <tr>
-        <td>2002</td>
-        <td>190</td>
-        <td>1030</td>
-        <td>18</td>
+        <td>20</td>
     </tr>
     <tr>
         <td>2003</td>
-        <td>210</td>
-        <td>1150</td>
-        <td>18</td>
-    </tr>
-    <tr>
-        <td>2004</td>
-        <td>200</td>
-        <td>1130</td>
-        <td>17</td>
-    </tr>
-    <tr>
-        <td>2005</td>
-        <td>200</td>
-        <td>1180</td>
-        <td>17</td>
-    </tr>
-  </tbody>
-</table>
-
-Figure 1. Total number of publications including United States contribution. United States contribution is expressed as percent of total (line trend with scale on y axis on right).
-
-publications was 2.12. Mean impact factor was unin- terpretable when there were few publications. For example, publications from Russia had the highest mean impact factor (5.08), but only one publication, and the nine publications from Columbia had a mean impact factor of 3.21. Among the 34 countries with more than 20 publications, publications from United States had the highest mean impact factor (3.04).
-
-European countries and Japan. Economic develop- ment had a significant impact on academic productiv- ity, with higher income nations contributing to a majority of publications.
-
-## Quantitative Parameters
-
-The United States had the most publications each  year. However, publications from the United States  declined from 23% in 2000 to 17% in 2005 (Fig. 1). Finland had the most publications per capita, 36 publications per million people, despite an overall publication rank of 10th with 187 publications in 6 yr.
-
-Previous bibliometric research has concentrated on publications that focus on anesthesia and related subspecialties, such as intensive care (1– 4). Specific studies have examined productivity in the field of anesthesia, intensive care, or in specialty-specific jour- nals. Each of these has been limited to research within our specialty. For instance, the Journal Citation Re- ports from the ISI Web of Knowledge (Thomson Scientific) lists 22 journals under the “anesthesiology” subject category and 18 under the “critical care medi- cine” category. Bibliometric research using journal- specific or category-specific data would therefore be limited in scope.
-
-Analysis of by national income produced expected results (Fig. 2). Among the top 34 countries with 20 or more publications, the 24 high income countries pub- lished a median of 8.5 manuscripts per million people (range 1.7 [Spain] to 35.6 [Finland]). The 10 countries not classified as high income nations published a median of 0.3 manuscripts per million people (range 0.1 [India, Pakistan, China, and Brazil] to 11.7 [Lebanon]).
-
-Anesthesia as a specialty interacts with many dis- ciplines, including surgery, neurology, cardiology, obstetrics, pulmonology, critical care, and hematol- ogy. This enables anesthesiologists to collaborate in clinical research with many disciplines. Consequently, the opportunities for publication extend to a broad range of journals. Therefore, subject-specific searches will likely underestimate the true contribution of anesthesia-based researchers to medical literature. Nevertheless, a majority of the articles were indeed limited to the 17 journals that could be categorized under “anesthesiology.”
-
-## DISCUSSION
-
-We conducted a bibliometric analysis of global clinical research attributed to anesthesia-based re-  searchers and found publications in diverse disci- plines reflecting the nature of the specialty itself.  Despite being limited to English-language publica- tions, non-English speaking nations contributed  strongly to this diversity. We also found that although  the overall productivity was highest for the United  States, per capita productivity was higher in Western
-
-Several studies have examined international scientific output. Falagas et al. (8) used a metric in which the total number of publications in three broad scientific disci- plines was multiplied by the impact factor of the  individual journals in each broad category, and then  adjusted for the gross domestic product of each re-  gion. Based on this metric, Canada had the highest
-
-Vol. 105, No. 6, December 2007
-© 2007 International Anesthesia Research Society
-1743
-
-Table 2. Journal Representation
-
-<table>
-  <thead>
-    <tr>
-        <th>Journal</th>
-        <th>Publication count</th>
-        <th>Percent</th>
-        <th>Percent publications that were RCT</th>
-        <th>2005 impact factor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>Anesthesia Analgesia</td>
-        <td>1274</td>
-        <td>18.92</td>
-        <td>71.6</td>
-        <td>2.452</td>
-    </tr>
-    <tr>
-        <td>Anesthesiology</td>
-        <td>543</td>
-        <td>8.06</td>
-        <td>66.3</td>
-        <td>4.005</td>
-    </tr>
-    <tr>
-        <td>Acta Anaesthesiologica Scandinavica</td>
-        <td>464</td>
-        <td>6.89</td>
-        <td>71.3</td>
-        <td>1.837</td>
-    </tr>
-    <tr>
-        <td>British Journal of Anaesthesia</td>
-        <td>464</td>
-        <td>6.89</td>
-        <td>75.0</td>
-        <td>2.425</td>
-    </tr>
-    <tr>
-        <td>Canadian Journal of Anaesthesia</td>
-        <td>327</td>
-        <td>4.86</td>
-        <td>78.9</td>
-        <td>1.764</td>
-    </tr>
-    <tr>
-        <td>Anaesthesia</td>
-        <td>302</td>
-        <td>4.48</td>
-        <td>73.5</td>
-        <td>2.512</td>
-    </tr>
-    <tr>
-        <td>European Journal of Anaesthesiology</td>
-        <td>299</td>
-        <td>4.44</td>
-        <td>78.9</td>
-        <td>1.126</td>
-    </tr>
-    <tr>
-        <td>Journal of Clinical Anesthesia</td>
-        <td>245</td>
-        <td>3.64</td>
-        <td>80.4</td>
-        <td>1.115</td>
-    </tr>
-    <tr>
-        <td>Paediatric Anaesthesia</td>
-        <td>201</td>
-        <td>2.98</td>
-        <td>77.6</td>
-        <td>1.412</td>
-    </tr>
-    <tr>
-        <td>Journal of Cardiothoracic Vascular Anesthesia</td>
-        <td>198</td>
-        <td>2.94</td>
-        <td>61.1</td>
-        <td>0.976</td>
-    </tr>
-    <tr>
-        <td>Regional Anesthesia Pain Medicine</td>
-        <td>164</td>
-        <td>2.44</td>
-        <td>78.6</td>
-        <td>2.595</td>
-    </tr>
-    <tr>
-        <td>Anaesthesia Intensive Care</td>
-        <td>141</td>
-        <td>2.09</td>
-        <td>72.3</td>
-        <td>0.866</td>
-    </tr>
-    <tr>
-        <td>Intensive Care Medicine</td>
-        <td>112</td>
-        <td>1.66</td>
-        <td>47.3</td>
-        <td>3.724</td>
-    </tr>
-    <tr>
-        <td>Critical Care Medicine</td>
-        <td>101</td>
-        <td>1.50</td>
-        <td>61.3</td>
-        <td>5.077</td>
-    </tr>
-    <tr>
-        <td>Pain</td>
-        <td>62</td>
-        <td>0.92</td>
-        <td>80.6</td>
-        <td>4.309</td>
-    </tr>
-    <tr>
-        <td>Minerva Anestesiologica</td>
-        <td>58</td>
-        <td>0.86</td>
-        <td>69.0</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Journal of the Medical Association of Thailand</td>
-        <td>51</td>
-        <td>0.76</td>
-        <td>90.2</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Journal of Neurosurgical Anesthesiology</td>
-        <td>49</td>
-        <td>0.73</td>
-        <td>55.1</td>
-        <td>1.613</td>
-    </tr>
-    <tr>
-        <td>Annals of Thoracic Surgery</td>
-        <td>47</td>
-        <td>0.70</td>
-        <td>66.0</td>
-        <td>2.229</td>
-    </tr>
-    <tr>
-        <td>Journal of Thoracic Cardiovascular Surgery</td>
-        <td>39</td>
-        <td>0.58</td>
-        <td>79.5</td>
-        <td>3.727</td>
-    </tr>
-    <tr>
-        <td>Acta Anaesthesiologica Sinica</td>
-        <td>38</td>
-        <td>0.56</td>
-        <td>89.5</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Journal of Anesthesia</td>
-        <td>38</td>
-        <td>0.56</td>
-        <td>84.2</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Middle East Journal of Anesthesiology</td>
-        <td>30</td>
-        <td>0.45</td>
-        <td>63.3</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Critical care (London, England)</td>
-        <td>29</td>
-        <td>0.43</td>
-        <td>37.9</td>
-        <td>2.932</td>
-    </tr>
-    <tr>
-        <td>Clinical Journal of Pain</td>
-        <td>26</td>
-        <td>0.39</td>
-        <td>69.2</td>
-        <td>2.713</td>
-    </tr>
-    <tr>
-        <td>Acta Anaesthesiologica Belgica</td>
-        <td>25</td>
-        <td>0.37</td>
-        <td>76.0</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Journal of Applied Physiology</td>
-        <td>25</td>
-        <td>0.37</td>
-        <td>20.0</td>
-        <td>3.037</td>
-    </tr>
-    <tr>
-        <td>Circulation</td>
-        <td>24</td>
-        <td>0.36</td>
-        <td>50.0</td>
-        <td>11.632</td>
-    </tr>
-    <tr>
-        <td>Journal of Pain Symptom Management</td>
-        <td>23</td>
-        <td>0.34</td>
-        <td>34.8</td>
-        <td>2.309</td>
-    </tr>
-    <tr>
-        <td>Resuscitation</td>
-        <td>23</td>
-        <td>0.34</td>
-        <td>52.2</td>
-        <td>2.804</td>
-    </tr>
-    <tr>
-        <td>Journal of Clinical Monitoring Computing</td>
-        <td>22</td>
-        <td>0.33</td>
-        <td>31.8</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>International Journal of Obstetric Anesthesia</td>
-        <td>19</td>
-        <td>0.28</td>
-        <td>89.5</td>
-        <td>1.11</td>
-    </tr>
-    <tr>
-        <td>American Journal of Respiratory Critical Care Medicine</td>
-        <td>18</td>
-        <td>0.27</td>
-        <td>50.0</td>
-        <td>8.689</td>
-    </tr>
-    <tr>
-        <td>Clinical Pharmacology Therapeutics</td>
-        <td>18</td>
-        <td>0.27</td>
-        <td>66.7</td>
-        <td>7.526</td>
-    </tr>
-    <tr>
-        <td>Clinical Therapeutics</td>
-        <td>18</td>
-        <td>0.27</td>
-        <td>88.9</td>
-        <td>3.03</td>
-    </tr>
-    <tr>
-        <td>Journal of International Medical Research</td>
-        <td>18</td>
-        <td>0.27</td>
-        <td>94.4</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Chest</td>
-        <td>17</td>
-        <td>0.25</td>
-        <td>52.9</td>
-        <td>4.008</td>
-    </tr>
-    <tr>
-        <td>European Journal of Pain</td>
-        <td>16</td>
-        <td>0.24</td>
-        <td>50.0</td>
-        <td>2.46</td>
-    </tr>
-    <tr>
-        <td>Acta Anaesthesiologica Taiwanica</td>
-        <td>14</td>
-        <td>0.21</td>
-        <td>100.0</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Perfusion</td>
-        <td>14</td>
-        <td>0.21</td>
-        <td>64.3</td>
-        <td>0.324</td>
-    </tr>
-    <tr>
-        <td>AANA Journal</td>
-        <td>13</td>
-        <td>0.19</td>
-        <td>69.2</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Shock</td>
-        <td>13</td>
-        <td>0.19</td>
-        <td>46.2</td>
-        <td>3.122</td>
-    </tr>
-    <tr>
-        <td>Surgical Endoscopy</td>
-        <td>13</td>
-        <td>0.19</td>
-        <td>61.5</td>
-        <td>N/A</td>
-    </tr>
-    <tr>
-        <td>Spine</td>
-        <td>12</td>
-        <td>0.18</td>
-        <td>83.3</td>
-        <td>2.187</td>
-    </tr>
-    <tr>
-        <td>European Journal of Cardio-Thoracic Surgery</td>
-        <td>11</td>
-        <td>0.16</td>
-        <td>72.7</td>
-        <td>1.802</td>
-    </tr>
-    <tr>
-        <td>JAMA</td>
-        <td>10</td>
-        <td>0.15</td>
-        <td>90.0</td>
-        <td>23.332</td>
-    </tr>
-    <tr>
-        <td>Others</td>
-        <td>1068</td>
-        <td>15.83</td>
-        <td>59.4</td>
-        <td>(mean) 1.91</td>
-    </tr>
-  </tbody>
-</table>
-
-N/A = not available; RCT = randomized controlled trials.
-
-research productivity in most fields, followed by the United States. Similar to our findings, Figueredo et al. (1) evaluated the geographic distribution of publica- tions within the top 10 anesthesiology journals and found a declining United States contribution from 1997 to 2001, and a high per capita productivity in North European nations. Although our study solely examined clinical research independent of cited jour- nal, and was not limited to designated anesthesiology journals, it supports the findings of Figueredo et al.
-
-The United States, Western Europe, and Japan had the highest mean impact factor of their publications,
-
-which likely reflects the relatively high caliber of research publications from these countries. Callaham et al. (9) found that impact factor of the original publishing journal was the strongest predictor of subsequent citations of an article per year.
-
-Seven of the 10 most productive countries per capita were from Northern or Western Europe. The high volume of research output by countries in this region has been described before (1,10) and our find- ings support these previous observations.
-
-Countries categorized by the World Bank as “high income” dominated research productivity, consistent
-
-1744
-
-Global Research by Anesthesiologists
-© International Anesthesia Research Society. Unauthorized Use Prohibited.
-
-ANESTHESIA & ANALGESIA
-
-Table 3. Country Representation
-
-<table>
-  <thead>
-    <tr>
-        <th>EMPTY</th>
-        <th>Country</th>
-        <th>Publications</th>
-        <th>Population<br/>(millions)</th>
-        <th>Publications<br/>per million</th>
-        <th>Mean IF</th>
-        <th>Income<br/>category</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>1</td>
-        <td>USA</td>
-        <td>1295</td>
-        <td>298.2</td>
-        <td>4.3</td>
-        <td>3.0</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Germany</td>
-        <td>676</td>
-        <td>82.7</td>
-        <td>8.2</td>
-        <td>2.7</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Japan</td>
-        <td>587</td>
-        <td>128.1</td>
-        <td>4.6</td>
-        <td>2.3</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>UK</td>
-        <td>466</td>
-        <td>59.7</td>
-        <td>7.8</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Turkey</td>
-        <td>340</td>
-        <td>73.2</td>
-        <td>4.6</td>
-        <td>1.5</td>
-        <td>Uppermiddle</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>Italy</td>
-        <td>296</td>
-        <td>58.1</td>
-        <td>5.1</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>Canada</td>
-        <td>268</td>
-        <td>32.3</td>
-        <td>8.3</td>
-        <td>2.8</td>
-        <td>High</td>
-    </tr>
-    <tr>
+        <td>96</td>
         <td>8</td>
-        <td>France</td>
-        <td>253</td>
-        <td>60.5</td>
-        <td>4.2</td>
-        <td>2.8</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>Sweden</td>
-        <td>217</td>
-        <td>9.0</td>
-        <td>24.0</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>10</td>
-        <td>Finland</td>
-        <td>187</td>
-        <td>5.2</td>
-        <td>35.6</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>11</td>
-        <td>China</td>
-        <td>185</td>
-        <td>1315.8</td>
-        <td>0.1</td>
-        <td>2.3</td>
-        <td>Lowermiddle</td>
-    </tr>
-    <tr>
-        <td>12</td>
-        <td>Austria</td>
-        <td>176</td>
-        <td>8.2</td>
-        <td>21.5</td>
-        <td>3.0</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>13</td>
-        <td>Switzerland</td>
-        <td>156</td>
-        <td>7.3</td>
-        <td>21.5</td>
-        <td>2.6</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>14</td>
-        <td>Australia</td>
-        <td>149</td>
-        <td>20.2</td>
-        <td>7.4</td>
-        <td>2.1</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>15</td>
-        <td>Netherlands</td>
-        <td>140</td>
-        <td>16.3</td>
-        <td>8.6</td>
-        <td>2.9</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>16</td>
-        <td>India</td>
-        <td>129</td>
-        <td>1103.4</td>
-        <td>0.1</td>
-        <td>1.7</td>
-        <td>Low</td>
-    </tr>
-    <tr>
-        <td>17</td>
-        <td>Belgium</td>
-        <td>123</td>
-        <td>10.4</td>
-        <td>11.8</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>18</td>
-        <td>Israel</td>
-        <td>114</td>
-        <td>6.7</td>
-        <td>16.9</td>
-        <td>2.3</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>19</td>
-        <td>Denmark</td>
-        <td>105</td>
-        <td>5.4</td>
-        <td>19.3</td>
-        <td>2.5</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>20</td>
-        <td>South Korea</td>
-        <td>95</td>
-        <td>47.8</td>
-        <td>2.0</td>
-        <td>1.8</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>21</td>
-        <td>Hong Kong</td>
-        <td>81</td>
-        <td>7.0</td>
-        <td>11.5</td>
-        <td>2.4</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>22</td>
-        <td>Spain</td>
-        <td>75</td>
-        <td>43.1</td>
-        <td>1.7</td>
-        <td>2.6</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>23</td>
-        <td>Singapore</td>
-        <td>67</td>
-        <td>4.3</td>
-        <td>15.5</td>
-        <td>2.0</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>24</td>
-        <td>Thailand</td>
-        <td>66</td>
-        <td>64.2</td>
-        <td>1.0</td>
-        <td>2.6</td>
-        <td>Lowermiddle</td>
-    </tr>
-    <tr>
-        <td>25</td>
-        <td>Norway</td>
-        <td>59</td>
-        <td>4.6</td>
-        <td>12.8</td>
-        <td>2.3</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>26</td>
-        <td>Ireland</td>
-        <td>54</td>
-        <td>4.1</td>
-        <td>13.0</td>
-        <td>1.9</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>27</td>
-        <td>Greece</td>
-        <td>50</td>
-        <td>11.1</td>
-        <td>4.5</td>
-        <td>1.7</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>28</td>
-        <td>Lebanon</td>
-        <td>42</td>
-        <td>3.6</td>
-        <td>11.7</td>
-        <td>2.0</td>
-        <td>Uppermiddle</td>
-    </tr>
-    <tr>
-        <td>29</td>
-        <td>Egypt</td>
-        <td>25</td>
-        <td>74.0</td>
-        <td>0.3</td>
-        <td>1.9</td>
-        <td>Lowermiddle</td>
-    </tr>
-    <tr>
         <td>30</td>
-        <td>Iran</td>
-        <td>23</td>
-        <td>69.5</td>
-        <td>0.3</td>
-        <td>1.9</td>
-        <td>Lowermiddle</td>
-    </tr>
-    <tr>
-        <td>31</td>
-        <td>New Zealand</td>
-        <td>23</td>
-        <td>4.0</td>
-        <td>5.7</td>
-        <td>1.7</td>
-        <td>High</td>
-    </tr>
-    <tr>
-        <td>32</td>
-        <td>Brazil</td>
-        <td>20</td>
-        <td>186.4</td>
-        <td>0.1</td>
-        <td>1.8</td>
-        <td>Lowermiddle</td>
-    </tr>
-    <tr>
-        <td>33</td>
-        <td>Pakistan</td>
-        <td>20</td>
-        <td>157.9</td>
-        <td>0.1</td>
-        <td>1.8</td>
-        <td>Low</td>
-    </tr>
-    <tr>
-        <td>34</td>
-        <td>South Africa</td>
-        <td>20</td>
-        <td>47.4</td>
-        <td>0.4</td>
-        <td>2.2</td>
-        <td>Uppermiddle</td>
-    </tr>
-    <tr>
-        <td colspan="2">Others</td>
-        <td>154</td>
-        <td>799.4</td>
-        <td>0.2</td>
-        <td>2.0</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="2">Total</td>
-        <td>6736</td>
-        <td>4829.4</td>
-        <td>1.4</td>
-        <td>2.1</td>
-        <td></td>
+        <td>68</td>
     </tr>
   </tbody>
 </table>
 
-Only countries with 20 or more publications (median value) during the 6-yr period were included.
-IF = impact factor.
+**Figure 1**
+**Results of a Web of Science search.** Results of a Web of Science search on: randomi* in clusters OR cluster randomi*, up to the end of 2003.
 
-## Distribution of Countries by Income Category
+Table 2: Result of a hand search for cluster randomised trials in the British Medical Journal
+
 
 <table>
   <thead>
     <tr>
-        <th>Category</th>
-        <th>Percentage</th>
+        <th>Year</th>
+        <th>Vol</th>
+        <th>Trials</th>
+        <th>Clustering ignored</th>
+        <th>Ignoring clustering judged as important</th>
+        <th>Found in Web of Science search</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-        <td>High</td>
-        <td>45%</td>
+        <td>2003</td>
+        <td>326-7</td>
+        <td>9</td>
+        <td>0</td>
+        <td>0</td>
+        <td>5</td>
     </tr>
     <tr>
-        <td>Upper Middle</td>
-        <td>25%</td>
+        <td>1998</td>
+        <td>316-7</td>
+        <td>4</td>
+        <td>1(?)</td>
+        <td>1</td>
+        <td>0</td>
     </tr>
     <tr>
-        <td>Lower Middle</td>
-        <td>19%</td>
+        <td>1993</td>
+        <td>306-7</td>
+        <td>4</td>
+        <td>3</td>
+        <td>2</td>
+        <td>0</td>
     </tr>
     <tr>
-        <td>Low</td>
-        <td>11%</td>
+        <td>1988</td>
+        <td>296-7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1983</td>
+        <td>286-7</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
     </tr>
   </tbody>
 </table>
 
-Figure 2. Distribution of all publications by national income category. All 64 countries are represented. Income categories per World Bank List of Economies 2005 (7).
+? doubtful whether clustering taken into account
 
-with previous reports linking economic development with scientific output (1,11–14). The paucity of research from developing nations probably reflects a number of factors, including lack of academic infrastructure,
+The trials which I regarded as failing to take the clustering into account were as follows. Russell *et al.* [21] investigated the effect of nicotine chewing gum as an adjunct to general-practitioners advice against smoking. Subjects were 'assigned by week of attendance (in a balanced design) to one of three groups (a) non-intervention con-
 
-absence of research productivity as a metric for career advancement, and insufficient funding.
+Page 4 of 6
+(page number not for citation purposes)
 
-Our study has limitations related to the search methodology and databases used. We included only
+BMC Medical Research Methodology 2004, **4**:21
+http://www.biomedcentral.com/1471-2288/4/21
 
-Vol. 105, No. 6, December 2007
-© 2007 International Anesthesia Research Society
-1745
-International Anesthesia Research Society. Unauthorized Use Prohibited.
+trols (b) advice and booklet (c) advice and booklet plus the offer of nicotine gum.' There were 6 practices, with recruitment over 3 weeks, one week to each regime. The study was analysed by chi-squared tests. As the clusters were large, with 1938 subjects in 18 clusters, clustering should have been taken into account.
 
-English-language publications because English is the language with the widest readership and global reach (15). Despite the expected bias towards English-speaking nations, the contribution of non-English language countries was strong, especially those from Europe. It is also possible that not all publications from anesthesia-based researchers were identified, as some publications only included institutional affiliation and not the author’s academic department. We included publications only from 2000 onwards, when electronic submissions in major journals made it easier to track author affiliations. Our study included only clinical research publications, and thus we cannot draw conclusions about basic science publications. Impact factors were available for 415 of the 551 journals in the database, representing 92.4% of all publications.
+Rink *et al.* [22] investigated the impact of introducing near patient testing for standard investigations in general practice. Twelve practices were used, and some given the equipment and some not in a cross-over design. Analysis used paired t tests, unpaired t tests, odds ratios, ratios of proportions with confidence intervals, and chi squared tests, none of which took clustering into account.
 
-In summary, we found that clinical research attributable to investigators in our specialty is diverse and extends beyond the traditional field of anesthesia and intensive care. Although the United States leads in academic productivity, per capita scientific output is higher in European nations. Economic development is closely linked to national research productivity with high income nations dominating global clinical research.
+In a trial of clinical guidelines to improve general-practice management and referral of infertile couples, Emslie *et al.* [23] randomised 82 general practices in Grampian region and studied 100 couples in each group. However, the main outcome measure was whether the general practitioner had taken a full sexual history and examined and investigated both partners appropriately. The cluster size may be small but the cluster effect may be large. The GP should be the unit of analysis here as opposed to the couple, as done in the paper.
 
-# REFERENCES
+The trial where I judged ignoring clustering to be unimportant had many very small clusters. Wetsteyn and Degeus [24] compared 3 regimens for malaria prophylaxis in travellers to Africa. Members of one family were allocated to one regimen and the results analysed using a chi-squared test.
 
-1. Figueredo E, Sanchez Perales G, Munoz Blanco F. International publishing in anaesthesia—how do different countries contribute? Acta Anaesthesiol Scand 2003;47:378–82
+Only five of the 18 trials had been found in the Web of Science search, showing that that was indeed an underestimate. However, the growth in numbers of trials is indicated by both electronic and hand searches.
 
-2. Tsui BC, Li LX, Ma V, Wagner AM, Finucane BT. Declining randomized clinical trials from Canadian anesthesia departments? Can J Anaesth 2006;53:226–35
+## Discussion
 
-3. Pua HL, Lerman J, Crawford MW, Wright JG. An evaluation of the quality of clinical trials in anesthesia. Anesthesiology 2001;95:1068–73
+A bibliometric survey has suggested a rapid increase in the number of cluster randomised trials, many of which appeared in the *British Medical Journal*. A hand search of the *British Medical Journal* has confirmed this increase, at least in this journal. Although the effects of clustering have often been ignored in trials, producing potentially misleading conclusions, the situation has certainly improved in the *British Medical Journal*. This has followed many articles on the topic in the Journal. Perhaps statistician pressure works.
 
-4. Lauritsen J, Moller AM. Publications in anesthesia journals: quality and clinical relevance. Anesth Analg 2004;99:1486–91; table of contents
+Identification of cluster allocation is subjective. I included one year, 1998, also searched by Puffer *et al.* [10] and identified four trials where Puffer *et al.* [10] identified only one. My assessments of whether clustering has been taken into account and whether ignoring it might be important are also subjective. Nevertheless, I think that the general conclusion of increasing activity and better reporting of trials, at least in the *British Medical Journal*, is valid. Whether we would find a similar improvement in other journals is less certain. It is likely that reporting of cluster randomised trials in the *British Medical Journal* is especially good, as the journal reports many such trials, has carried many articles on their correct analysis and reporting, has a fairly rigorous statistical refereeing system, [25-27] and is generally of a relatively high methodological standard. The *BMJ*'s current statistical checklist [28] does not mention clusters, however. It would be possible to extend the survey to other journals where such trials are frequently reported, but these, too, might be more likely to adhere to sound principles of analysis and reporting than would journals where few such studies appear. The thought of hand-searching journals where no trials might be found does not appeal.
 
-5. National Library of Medicine: MEDLINE®/PubMed® Data Element (Field) Descriptions. 2007. Available at: http://www.nlm.nih.gov/bsd/mms/medlineelements.html. Accessed on April 5, 2007
+There are still many other aspects of trial reporting where improvement is possible [10,12] but the picture drawn by this survey is encouraging. Methodologists need to keep up the pressure and to extend it to specialist journals. The recently published extension of the CONSORT statement to cluster randomised trials is to be welcomed. [29] We should also pursue other types of study where the unit of analysis is doubtful, such as those involving observations of multiple body parts in the same patient or multiple measurements on the same tissue treated as independent.
 
-6. Population, Resources, Environment and Development: The 2005 Revision. United Nations Populations Division. 2005. Available at: http://unstats.un.org/pop/dVariables/DRetrieval.aspx. Accessed on March 27, 2007
+## Conclusions
 
-7. World Bank List of Economies. World Bank Data Development Group. Washington, DC. 2005. Available at: http://web.worldbank.org/WBSITE/EXTERNAL/DATASTATISTICS/0,contentMDK:20420458~menuPK:64133156~pagePK:64133150~piPK:64133175~theSitePK:239419,00.html. Last accessed March 27, 2007
+Cluster trials have become much more frequent since the mid 1990s. Reporting of these trials has improved and in the journal which publishes more than any other the quality had improved greatly. This improvement has followed a large number of articles advocating methods of analysis which take clustering into account, Perhaps statistician pressure works.
 
-8. Falagas ME, Michalopoulos AS, Bliziotis IA, Soteriades ES. A bibliometric analysis by geographic area of published research in several biomedical fields, 1995–2003. CMAJ 2006;175:1389–90
+### Competing interests
 
-9. Callaham M, Wears RL, Weber E. Journal prestige, publication bias, and other characteristics associated with citation of published studies in peer-reviewed journals. JAMA 2002;287:2847–50
+The author has been published frequently in the *British Medical Journal*, including articles written for payment.
 
-10. Skram U, Larsen B, Ingwersen P, Viby-Mogensen J. Scandinavian research in anaesthesiology 1981–2000: visibility and impact in EU and world context. Acta Anaesthesiol Scand 2004;48:1006–13
+### Authors' contributions
 
-11. Division of Science Resources Statistics NSF. U.S. and international research and development: funds and technology linkages. In: Science and engineering indicators 2004. Arlington, VA: National Science Board, 2004:Chap 4-44-6
+J. M. Bland is the sole contributor.
 
-12. Monge-Najera J, Nielsen V. The countries and languages that dominate biological research at the beginning of the 21st century. Rev Biol Trop 2005;53:283–94
+### Additional material
 
-13. Michalopoulos A, Falagas ME. A bibliometric analysis of global research production in respiratory medicine. Chest 2005;128:3993–8
+> **Additional File 1**
+> **Papers in the survey** List of papers in the survey of the BMJ, Word file.
+> Click here for file
+> [http://www.biomedcentral.com/content/supplementary/1471-2288-4-21-S1.doc]
 
-14. Rosmarakis ES, Vergidis PI, Soteriades ES, Paraschakis K, Papastamataki PA, Falagas ME. Estimates of global production in cardiovascular diseases research. Int J Cardiol 2005;100:443–9
+Page 5 of 6
+(page number not for citation purposes)
 
-15. Villar J. English, an international language in medicine. Med Clin (Barc) 1988;91:23–4
+BMC Medical Research Methodology 2004, 4:21 http://www.biomedcentral.com/1471-2288/4/21
 
-1746
-Global Research by Anesthesiologists
-ANESTHESIA & ANALGESIA
-© International Anesthesia Research Society. Unauthorized Use Prohibited.
+# Acknowledgements
+I thank Douglas Altman, Sandra Eldridge, Sally Kerry, Jeremy Miles, and David Torgerson for helpful comments on a draft.
+
+## References
+1. Elley CR, Kerse N, Arroll B, Robinson E: **Effectiveness of counselling patients on physical activity in general practice: cluster randomised controlled trial.** *Brit Med J* 2003, **326**:793-796.
+2. Altman DG, Bland JM: **Statistics Notes – Units of analysis.** *Brit Med J* 1997, **314**:1874.
+3. Bland JM, Kerry SM: **Statistics Notes – Trials randomised in clusters.** *Brit Med J* 1997, **315**:600.
+4. Kerry SM, Bland JM: **Statistics Notes – Analysis of a trial randomised in clusters.** *Brit Med J* 1998, **316**:54.
+5. Bland JM, Kerry SM: **Statistics Notes – Weighted comparison of means.** *Brit Med J* 1998, **316**:129.
+6. Kerry SM, Bland JM: **Statistics Notes – Sample size in cluster randomisation.** *Brit Med J* 1998, **316**:549.
+7. Kerry SM, Bland JM: **Statistics Notes – The intra-cluster correlation coefficient in cluster randomisation.** *Brit Med J* 1998, **316**:1455.
+8. Donner A, Brown KS, Brasher P: **A methodological review of non-therapeutic intervention trials employing cluster randomization. 1979–1989.** *Int J Epidemiol* 1990, **19**:795-800.
+9. Simpson JM, Klar N, Donner A: **Accounting for cluster randomization – a review of primary prevention trials, 1990 through 1993.** *Am J Public Health* 1995, **85**:1378-1383.
+10. Puffer S, Torgerson D, Watson J: **Evidence for risk of bias in cluster randomised trials: review of recent trials published in three general medical journals.** *Brit Med J* 2003, **327**:785-789.
+11. Isaakidis P, Ioannidis JPA: **Evaluation of cluster randomized controlled trials in sub-Saharan Africa.** *Am J Epidemiol* 2003, **158**:921-926.
+12. Eldridge SM, Ashby D, Feder GS, Rudnicka AR, Ukoumunne OC: **Lessons for cluster randomised trials in the 21st century: a systematic review of trials in primary care.** *Clin Trials* 2004, **1**:80-90.
+13. Varnell SP, Murray DM, Janega JB, Blitstein JL: **Design and analysis of group-randomized trials: a review of recent practices.** *Am J Public Health* 2004, **94**:393-399.
+14. Meyer G, Warnke A, Bender R, Mühlhauser I: **Effect on hip fractures of increased use of hip protectors in nursing homes: cluster randomised controlled trial.** *Brit Med J* 2003, **326**:76-78.
+15. Donner A, Birkett N, Buck C: **Randomization by cluster – sample-size requirements and analysis.** *Am J Epidemiol* 1981, **114**:906-914.
+16. Donner A: **An empirical-study of cluster randomization.** *Inl J Epidemiol* 1982, **11**:283-286.
+17. Cornfield J: **Randomisation by group: A formal analysis.** *Am J Epidemiol* 1978, **108**:100.
+18. Murray DM: *The Design and Analysis of Group-Randomized Trials* Oxford: University Press; 1998.
+19. Nutbeam D, Macaskill P, Smith C, Simpson JM, Catford J: **Evaluation of 2 school smoking education-programs under normal classroom conditions.** *Brit Med J* 1993, **306**:102-107.
+20. Wright CM, Callum J, Birks E, Jarvis S: **Effect of community based management in failure to thrive: randomised controlled trial.** *Brit Med J* 1998, **317**:571-574.
+21. Russell MAH, Merriman R, Stapleton J, Taylor W: **Effect of nicotine chewing gum as an adjunct to general-practitioners advice against smoking.** *Brit Med J* 1983, **287**:1782-1785.
+22. Rink E, Hilton S, Szczepura A, Fletcher J, Sibbald B, Davies C, Freeling P, Stilwell J: **Impact of introducing near patient testing for standard investigations in general-practice.** *Brit Med J* 1993, **307**:775-778.
+23. Emslie C, Grimshaw J, Templeton A: **Do clinical guidelines improve general-practice management and referral of infertile couples?** *Brit Med J* 1993, **306**:1728-1731.
+24. Wetsteyn JCFM, Degeus A: **Comparison of 3 regimens for malaria prophylaxis in travelers to East, Central, and Southern Africa.** *Brit Med J* 1993, **307**:1041-1043.
+25. Gardner MJ, Altman DG, Jones DR, Machin D: **Is the statistical assessment of papers submitted to the "British Medical Journal" effective?** *Brit Med J* 1983, **286**:1485-8.
+26. Altman DG, Gore SM, Gardner MJ, Pocock SJ: **Statistical guidelines for contributors to medical journals.** *Brit Med J* 1983, **286**:1489-93.
+27. Gardner MJ, Machin D, Campbell MJ: **Use of check lists in assessing the statistical content of medical studies.** *Brit Med J* 1986, **292**:810-2.
+28. **bmj.com – Advice to contributors** [http://bmj.bmjjournals.com/advice/checklists.shtml#gstatistical]
+29. Campbell MK, Elbourne DR, Altman DG, for the CONSORT Group: **The CONSORT statement: extension to cluster randomised trials.** *Brit Med J* 2004, **328**:702-708.
+
+## Pre-publication history
+The pre-publication history for this paper can be accessed here:
+
+<u>http://www.biomedcentral.com/1471-2288/4/21/prepub</u>
+
+> Publish with **BioMed Central** and every scientist can read your work free of charge
+>
+> *"BioMed Central will be the most significant development for disseminating the results of biomedical research in our lifetime."*
+> Sir Paul Nurse, Cancer Research UK
+>
+> Your research papers will be:
+> * available free of charge to the entire biomedical community
+> * peer reviewed and published immediately upon acceptance
+> * cited in PubMed and archived on PubMed Central
+> * yours — you keep the copyright
+>
+> Submit your manuscript here:
+> http://www.biomedcentral.com/info/publishing_adv.asp
+> ![BioMedcentral](page_6_image_1_v2.jpg)
+
+Page 6 of 6
+(page number not for citation purposes)
