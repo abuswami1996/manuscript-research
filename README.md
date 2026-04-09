@@ -56,8 +56,13 @@ The workflow is non-linear — the principal can loop the ideate/critique cycle 
 | [`runtime/`](runtime/) | Shared `resolve_run_workspace`, `stream_run` / `run` (invoke) with LangSmith config |
 | [`tools/`](tools/) | Shared tools (`internet_search`, `run_python`); each run sets `RUN_WORKSPACE` (and legacy `MANUSCRIPT_RUN_WORKSPACE`) |
 | [`utils/`](utils/) | Logging (per-agent log file under `logs/`), LangSmith helpers |
+| [`web/`](web/) | Next.js **Protocol Browser** for Supabase-backed protocol catalog (optional UI) |
 
 Legacy imports `lib.prompts` and `lib.tools` re-export from the new locations.
+
+### Protocol Browser (`web/`)
+
+The [`web/`](web/) app browses protocols hydrated into Supabase. Configuration for Clerk, Supabase third-party JWT auth, votes/comments RLS, and deployment is documented in [`web/README.md`](web/README.md).
 
 ## Setup
 
