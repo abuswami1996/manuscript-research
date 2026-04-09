@@ -60,9 +60,9 @@ The workflow is non-linear — the principal can loop the ideate/critique cycle 
 
 Legacy imports `lib.prompts` and `lib.tools` re-export from the new locations.
 
-### Protocol Browser (`web/`)
+### Research Hub (`web/`)
 
-The [`web/`](web/) app browses protocols hydrated into Supabase. Configuration for Clerk, Supabase third-party JWT auth, votes/comments RLS, and deployment is documented in [`web/README.md`](web/README.md).
+The [`web/`](web/) app browses **Research Protocols** and **Agent Studies** (manuscript / bibliometric runs) hydrated into Supabase. Configuration for Clerk, Supabase third-party JWT auth, votes/comments RLS, agent-study storage, extraction/hydration scripts, and deployment is documented in [`web/README.md`](web/README.md).
 
 ## Setup
 
