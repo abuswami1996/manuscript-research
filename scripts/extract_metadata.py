@@ -121,6 +121,15 @@ class IdeationProcess(BaseModel):
     scores: IdeationScores
 
 
+class RejectedIdea(BaseModel):
+    title: str = Field(description="Short title of the candidate idea.")
+    verdict: str = Field(description="ADVANCE or REJECT — the critic's verdict.")
+    reason: str = Field(
+        description="One sentence on why it was not selected for the final protocol."
+    )
+    scores: IdeationScores
+
+
 class Reference(BaseModel):
     title: str
     authors: str = Field(description="Short author string, e.g. 'Lincoff AM et al.'")
@@ -162,6 +171,10 @@ class ProtocolMetadata(BaseModel):
         default=None, description="Total budget in USD if the protocol includes one."
     )
     ideation: IdeationProcess
+    rejected_ideas: list[RejectedIdea] = Field(
+        description="All candidate ideas that were NOT selected for the final protocol. "
+        "Extract from the critique report scoreboard and verdict sections."
+    )
     references: list[Reference] = Field(
         description="Top 10-15 most important references from the protocol."
     )
@@ -194,6 +207,11 @@ by the critic. Use DOIs and PMIDs when they appear in the text.
 
 For the ideation section, extract the critic's scores for the selected idea \
 from the critique report or principal notes.
+
+For rejected_ideas, extract ALL candidate ideas that were NOT selected for \
+the final protocol. Use the critique report's scoreboard and individual idea \
+sections to get each idea's title, verdict (ADVANCE or REJECT), a one-sentence \
+reason it was not chosen, and its novelty/feasibility/impact scores.
 
 For topics, generate 5-10 tags using lowercase-hyphenated slugs as the id. \
 Reuse common slugs where applicable: machine-learning, natural-language-processing, \

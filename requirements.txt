@@ -11,3 +11,4 @@ requests
 openpyxl
 pyalex
 biopython
+supabase
